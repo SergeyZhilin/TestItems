@@ -1,0 +1,18 @@
+.Analyser {
+  text-transform: capitalize;
+
+  .remove-analyser {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    cursor: pointer;
+  }
+
+  &:hover {
+    .remove-analyser {
+      display: block;
+    }
+  }
+}

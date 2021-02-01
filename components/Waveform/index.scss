@@ -1,0 +1,29 @@
+.waveform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: transparent;
+
+  audio {
+    &:focus {
+      outline: unset;
+    }
+  }
+
+  ul {
+    width: 100%;
+    list-style-type: none;
+    padding: unset;
+
+    li {
+      cursor: pointer;
+      height: 30px;
+
+      &:hover {
+        background: rgba(63, 70, 81, 0.3);
+      }
+    }
+  }
+}
